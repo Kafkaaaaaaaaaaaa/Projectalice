@@ -1,0 +1,16 @@
+{
+  "name": "frequency-chat",
+  "version": "1.0.0",
+  "description": "Room-code based real-time chat",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
